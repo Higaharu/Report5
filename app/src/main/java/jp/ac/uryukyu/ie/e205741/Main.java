@@ -1,5 +1,4 @@
 package jp.ac.uryukyu.ie.e205741;
-import java.io.IOException;
 
 public class Main {
     public static void main (String[] args){
@@ -10,5 +9,6 @@ public class Main {
             System.out.println("NullPointerException");
             System.out.println(n.getMessage());
         }
+        
     }
 }
