@@ -1,9 +1,14 @@
 package jp.ac.uryukyu.ie.e205741;
+import java.io.IOException;
 
 public class Main {
     public static void main (String[] args){
-        String str = null;
-        System.out.println(str.length());
-
+        try{
+            String str = null;
+            System.out.println(str.length());
+        } catch (NullPointerException n) {
+            System.out.println("NullPointerException");
+            System.out.println(n.getMessage());
+        }
     }
 }
