@@ -9,6 +9,5 @@ public class Main {
             System.out.println("NullPointerException");
             System.out.println(n.getMessage());
         }
-        
     }
 }
